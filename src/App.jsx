@@ -89,6 +89,9 @@ function App() {
             tasks={tasks}
             onToggle={onToggle}
             onDelete={onDelete}
+            isLoading={isLoading}
+            error={error}
+            onRetry={onRetry}
           />
         }
       />
